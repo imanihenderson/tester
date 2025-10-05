@@ -1,0 +1,26 @@
+# Core system and utilities
+python-dotenv>=1.0.1
+requests>=2.31.0
+numpy>=1.25.0
+matplotlib>=3.7.0
+pillow>=10.0.0
+
+# Machine learning & deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Hugging Face ecosystem
+transformers>=4.31.0
+datasets>=2.14.0
+huggingface-hub>=0.19.0
+
+# Training utilities
+accelerate>=0.23.0
+evaluate>=0.4.0
+
+# Optional (if you use W&B or similar)
+wandb>=0.16.0
+
+# Typing and dataclass support (standard but included for safety)
+dataclasses; python_version<"3.7"
+typing-extensions>=4.8.0

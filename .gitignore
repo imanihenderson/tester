@@ -1,0 +1,61 @@
+# -----------------------------
+# Environment & Config Files
+# -----------------------------
+.env
+.env.*
+*.secret
+*.key
+
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+venv/
+env/
+.venv/
+ENV/
+.idea/
+.vscode/
+
+# -----------------------------
+# Logs & Outputs
+# -----------------------------
+*.log
+logs/
+checkpoints/
+output/
+runs/
+wandb/
+.cache/
+*.ckpt
+*.pt
+*.pth
+
+# -----------------------------
+# Jupyter & Datasets
+# -----------------------------
+.ipynb_checkpoints
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+
+# -----------------------------
+# System Files
+# -----------------------------
+.DS_Store
+Thumbs.db
